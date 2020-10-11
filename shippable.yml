@@ -1,7 +1,11 @@
 language: java
-jdk:
-- openjdk11
-after_success:
-- mvn clean verify 
-- mvn clean cobertura:cobertura
-- mvn test
+jdk: openjdk11
+build:
+    ci:
+        - mkdir -p shippable/testresults
+        - mkdir -p shippable/codecoverage
+        - shippable_retry mvn install
+        - cp -r target shippable codecoverage
+    on_success:
+        - mvn clean verify 
+        - mvn test
