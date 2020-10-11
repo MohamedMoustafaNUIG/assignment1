@@ -23,12 +23,6 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.7.0</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.6</version>
-            <type>maven-plugin</type>
         </dependency>    
     </dependencies>
     <name>assignment1</name>
