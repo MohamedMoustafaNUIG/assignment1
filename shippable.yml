@@ -2,5 +2,6 @@ language: java
 jdk:
 - openjdk11
 after_success:
+- mvn clean verify 
 - mvn clean cobertura:cobertura
 - mvn test
