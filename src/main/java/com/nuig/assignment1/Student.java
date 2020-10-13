@@ -1,4 +1,4 @@
-package com.nuig.firstmavenproject;
+package com.nuig.assignment1;
 
 import java.util.ArrayList;
 import org.joda.time.DateTime;

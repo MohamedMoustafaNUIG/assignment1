@@ -1,7 +1,7 @@
 //Classes
-import com.nuig.firstmavenproject.Module;
-import com.nuig.firstmavenproject.Course;
-import com.nuig.firstmavenproject.Student;
+import com.nuig.assignment1.Module;
+import com.nuig.assignment1.Course;
+import com.nuig.assignment1.Student;
 //Utils
 import java.util.ArrayList;
 //Dependencies
