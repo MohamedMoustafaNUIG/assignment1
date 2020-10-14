@@ -84,4 +84,20 @@ public class Student {
         this.modules = modules;
     }
     
+    //Added utility methods
+    public void addModule(Module m){this.modules.add(m);}
+    public void removeModule(Module m){
+        int idx = -1;
+        for (int i=0;i<this.modules.size();i++){
+            if (this.modules.get(i).getId().equals(m.getId())){idx=i;}
+        }
+        if(idx!=-1){this.modules.remove(idx);}
+    }
+    public void printModules(){
+        String buff = "Modules for student "+ this.name+":\n";
+        for(Module m:this.modules){
+            buff+=m.getModule_name()+"\n";
+        }
+        System.out.println(buff);
+    }
 }
