@@ -62,7 +62,6 @@ public class Course {
     public void setEnd_date(DateTime end_date) {
         this.end_date = end_date;
     }
-    /*
     //Added utility methods
     public void addModule(Module m){this.modules.add(m);}
     public void removeModule(Module m){
@@ -95,5 +94,4 @@ public class Course {
         }
         System.out.println(buff);
     }
-    */
 }

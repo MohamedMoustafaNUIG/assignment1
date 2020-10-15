@@ -83,7 +83,6 @@ public class Student {
     public void setModules(ArrayList<Module> modules) {
         this.modules = modules;
     }
-    /*
     //Added utility methods
     public void addModule(Module m){this.modules.add(m);}
     public void removeModule(Module m){
@@ -100,5 +99,4 @@ public class Student {
         }
         System.out.println(buff);
     }
-    */
 }
