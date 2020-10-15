@@ -52,7 +52,7 @@ public class Module {
     public void setCourses(ArrayList<Course> courses) {
         this.courses = courses;
     }
-    
+    /*
     //Added utility methods
     public void addStudent(Student s){this.students.add(s);}
     public void removeStudent(Student s){
@@ -85,4 +85,5 @@ public class Module {
         }
         System.out.println(buff);
     }
+*/
 }
